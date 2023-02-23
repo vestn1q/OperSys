@@ -1,15 +1,31 @@
-Git is a console utility to track and maintain a history of changes to files in your project. It's most commonly used for code, but you can also use it for other files. For example, for pictures - useful for designers.
+## Git is a distributed version control system that allows you to track changes to program code and store them in a repository. Git is used to keep a history of changes, collaborate on projects from multiple devices, and ensure data security.
 
-With Git, you can roll back your project to an older version, compare, analyze, or leak your changes to a repository.
+## Basic actions and commands in Git:
 
-git config - this command sets the author name and email address respectively to be used with your commits.
+Initialize the repository - `git init`
 
-git init - this command is used to start a new repository.
+>This command initializes a new repository in the current directory. After that, a .git folder will be created in the directory where all the data about the repository will be stored.
 
-git clone - this command is used to obtain a repository from an existing URL.
+Adding files to the repository - `git add`
+>This command adds changed or new files to the index so that they can be committed later.
 
-git add - this command adds a file to the staging area.
+Commit changes - `git commit`
 
-git commit -m "commit name" - this command creates a new commit
+>This command creates a new commit with the changes that were added to the index using git add. In the commit, you can add a description of the changes to make it easier to understand what has changed.
 
-git branch "name" - this command creates a new branch
+Check the status of the repository - `git status`
+
+>This command displays information about the status of the repository, indicating which files have been changed, which files are ready for a commit, and which files have not been added to the index.
+
+Commit history information - `git log`
+
+>This command displays a list of commits in the repository with descriptions of the changes that have been made.
+
+Switching between branches - `git checkout`
+
+>This command allows you to switch from one branch to another in order to continue working with another branch.
+
+Merge branches - `git merge`
+
+>This command allows you to merge changes from one branch to another.
+
